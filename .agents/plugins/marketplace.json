@@ -1,0 +1,20 @@
+{
+  "name": "academic-humanizer-marketplace",
+  "interface": {
+    "displayName": "Academic Humanizer Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "academic-humanizer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/academic-humanizer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
