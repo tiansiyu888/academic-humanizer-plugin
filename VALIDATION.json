@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": {
+    "manifest_location": ".codex-plugin/plugin.json",
+    "marketplace_location": ".agents/plugins/marketplace.json",
+    "plugin_source_path": "./plugins/academic-humanizer",
+    "skill_location": "skills/academic-humanizer/SKILL.md",
+    "json_valid": true,
+    "name_consistent": true,
+    "default_prompt_count": 3
+  },
+  "errors": []
+}
