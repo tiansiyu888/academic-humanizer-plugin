@@ -1,0 +1,38 @@
+{
+  "name": "academic-humanizer",
+  "version": "0.3.3",
+  "description": "Refine academic prose by removing generic AI phrasing while preserving evidence strength, numbers, results, equations, and citations.",
+  "author": {
+    "name": "tiansiyu888",
+    "url": "https://github.com/tiansiyu888"
+  },
+  "homepage": "https://github.com/AIScientists-Dev/academic-humanizer",
+  "repository": "https://github.com/tiansiyu888/academic-humanizer-plugin",
+  "license": "MIT",
+  "keywords": [
+    "academic-writing",
+    "research",
+    "editing",
+    "papers",
+    "grant-proposals",
+    "humanizer"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Academic Humanizer",
+    "shortDescription": "Refine academic prose without changing evidence, numbers, equations, or citations.",
+    "longDescription": "Academic Humanizer edits papers, theses, rebuttals, and grant proposals for clearer, less formulaic academic writing. It preserves numbers, equations, citations, scholarly hedging, and claim-evidence strength, and can match an author's prior writing or a target venue.",
+    "developerName": "tiansiyu888 · community wrapper",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/AIScientists-Dev/academic-humanizer",
+    "defaultPrompt": [
+      "Revise this Introduction; keep every number and citation unchanged.",
+      "Edit this manuscript for concise, evidence-bound academic prose.",
+      "Revise this proposal while preserving claim and evidence strength."
+    ]
+  }
+}
